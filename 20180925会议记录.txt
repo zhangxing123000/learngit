@@ -1,0 +1,31 @@
+#1.按公司查询
+#2.结算明细（去掉）
+#3.平台手续费（去掉）
+4.扫码消费 刷卡消费 按钮变大 醒目
+#5.优惠规则放在结算价上面
+6.增加消费类型
+7.单元格等宽
+8.机构 工号 消费类型 实际消费金额 消费总金额 优惠金额 获得的积分 消耗的积分
+9.时间降序排列
+10.红冲 在线下消费点击红冲引掉 结算汇总中存在（一正一负）
+12.年 月 单位 工号
+#13.扫码消费 刷卡消费--》身份验证、计算改成--》确认
+#14.线上商品管理--》线上书目管理
+15.读卡按钮和刷卡同一行
+#16.是否使用积分 是：显示积分
+#17.刷卡没有积分
+#18.消费时间放后面
+19.宝信社区进入好生活的链接错误 链接到新平台
+							if(j==0){
+												+ '<div class="hsh-tp-btn">'
+												+ '<span class="button active btn-top" style="background-color:#FFD700;">第'+(j+1)+'名</span>'
+												+ '</div>'
+											}else if(j==1){
+												+ '<div class="hsh-tp-btn">'
+												+ '<span class="button active btn-top" style="background-color:#c0c0c0;">第'+(j+1)+'名</span>'
+												+ '</div>'
+											}else if(j==2){
+												+ '<div class="hsh-tp-btn">'
+												+ '<span class="button active btn-top" style="background-color:#B5A6C2;">第'+(j+1)+'名</span>'
+												+ '</div>'
+											}else{
